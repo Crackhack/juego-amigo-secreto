@@ -50,7 +50,7 @@ function sortearAmigo() {
         console.log(amigoSecreto) // Aqui se realiza el numero random de acuerdo a logitud del array
 
         let nombreAmigo =document.getElementById('resultado');
-        nombreAmigo.innerHTML =`El amigo Screto Sorteado es: ${amigos[amigoSecreto-1]}`;
+        nombreAmigo.innerHTML =`El amigo Secreto Sorteado es: ${amigos[amigoSecreto-1]}`;
 
     }
 }
